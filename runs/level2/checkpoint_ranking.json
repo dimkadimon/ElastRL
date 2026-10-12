@@ -1,0 +1,132 @@
+[
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0020000.pt",
+    "step": 20000,
+    "finish_rate": 1.0,
+    "mean_time": 6.22710000000001,
+    "mean_progress": 30.8,
+    "mean_time_all": 6.22710000000001,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/final.pt",
+    "step": 20000,
+    "finish_rate": 1.0,
+    "mean_time": 6.22710000000001,
+    "mean_progress": 30.8,
+    "mean_time_all": 6.22710000000001,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0019000.pt",
+    "step": 19000,
+    "finish_rate": 1.0,
+    "mean_time": 6.435000000000011,
+    "mean_progress": 31.75,
+    "mean_time_all": 6.435000000000011,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0017500.pt",
+    "step": 17500,
+    "finish_rate": 1.0,
+    "mean_time": 6.444900000000009,
+    "mean_progress": 31.9,
+    "mean_time_all": 6.444900000000009,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0019500.pt",
+    "step": 19500,
+    "finish_rate": 1.0,
+    "mean_time": 6.5439000000000105,
+    "mean_progress": 32.3,
+    "mean_time_all": 6.5439000000000105,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0017000.pt",
+    "step": 17000,
+    "finish_rate": 1.0,
+    "mean_time": 6.672600000000012,
+    "mean_progress": 33.1,
+    "mean_time_all": 6.672600000000012,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0018000.pt",
+    "step": 18000,
+    "finish_rate": 1.0,
+    "mean_time": 6.732000000000011,
+    "mean_progress": 33.4,
+    "mean_time_all": 6.732000000000011,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0014500.pt",
+    "step": 14500,
+    "finish_rate": 1.0,
+    "mean_time": 6.771600000000011,
+    "mean_progress": 33.45,
+    "mean_time_all": 6.771600000000011,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0015000.pt",
+    "step": 15000,
+    "finish_rate": 1.0,
+    "mean_time": 6.781500000000011,
+    "mean_progress": 33.55,
+    "mean_time_all": 6.781500000000011,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0018500.pt",
+    "step": 18500,
+    "finish_rate": 1.0,
+    "mean_time": 6.821100000000011,
+    "mean_progress": 33.8,
+    "mean_time_all": 6.821100000000011,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0016500.pt",
+    "step": 16500,
+    "finish_rate": 1.0,
+    "mean_time": 6.949800000000012,
+    "mean_progress": 34.5,
+    "mean_time_all": 6.949800000000012,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0016000.pt",
+    "step": 16000,
+    "finish_rate": 1.0,
+    "mean_time": 7.038900000000012,
+    "mean_progress": 34.95,
+    "mean_time_all": 7.038900000000012,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  },
+  {
+    "ckpt": "runs/level2/checkpoints/ckpt_0015500.pt",
+    "step": 15500,
+    "finish_rate": 1.0,
+    "mean_time": 7.236900000000013,
+    "mean_progress": 35.9,
+    "mean_time_all": 7.236900000000013,
+    "crash_rate": 0.0,
+    "stuck_rate": 0.0
+  }
+]

@@ -1,0 +1,170 @@
+    video @0: _untrained prog=0.2 t=0.3 CRASH -> runs/level1/videos/step_0000000_untrained.mp4
+[    2.3s] step    100 env     6,400 upd       0 | finish 0.0 crash 0.97 stuck 0.03 | prog 0.85 rew 0.44 | alpha 0.01 H 0.0 | 2731 env/s 0 upd/s
+[    4.6s] step    200 env    12,800 upd       0 | finish 0.0 crash 0.98 stuck 0.02 | prog 0.93 rew 0.47 | alpha 0.01 H 0.0 | 2771 env/s 0 upd/s
+[    7.0s] step    300 env    19,200 upd       0 | finish 0.0 crash 0.97 stuck 0.03 | prog 0.86 rew 0.46 | alpha 0.01 H 0.0 | 2752 env/s 0 upd/s
+[   13.2s] step    400 env    25,600 upd     176 | finish 0.0 crash 1.0 stuck 0.0 | prog 0.67 rew 0.45 | alpha 0.0093 H 0.715 | 1932 env/s 13 upd/s
+[   19.6s] step    500 env    32,000 upd     376 | finish 0.0 crash 1.0 stuck 0.0 | prog 1.27 rew 0.59 | alpha 0.0097 H 1.18 | 1632 env/s 19 upd/s
+    eval @500: run prog=0.2 t=2.3 STUCK | run prog=0.2 t=2.3 STUCK
+    new best: 0/2 finishes, mean time nans
+[   27.6s] step    600 env    38,400 upd     576 | finish 0.01 crash 0.78 stuck 0.21 | prog 9.46 rew 2.31 | alpha 0.0093 H 1.169 | 1392 env/s 21 upd/s
+[   33.0s] step    700 env    44,800 upd     776 | finish 0.02 crash 0.59 stuck 0.39 | prog 14.04 rew 3.21 | alpha 0.0082 H 1.328 | 1357 env/s 24 upd/s
+[   38.0s] step    800 env    51,200 upd     976 | finish 0.03 crash 0.31 stuck 0.66 | prog 18.55 rew 3.97 | alpha 0.0069 H 1.342 | 1348 env/s 26 upd/s
+[   42.8s] step    900 env    57,600 upd   1,176 | finish 0.04 crash 0.16 stuck 0.8 | prog 18.62 rew 3.76 | alpha 0.0066 H 1.249 | 1345 env/s 28 upd/s
+[   47.5s] step   1000 env    64,000 upd   1,376 | finish 0.03 crash 0.07 stuck 0.8 | prog 16.98 rew 2.81 | alpha 0.0053 H 1.478 | 1349 env/s 29 upd/s
+    eval @1000: run prog=0.2 t=2.3 STUCK | run prog=0.2 t=2.3 STUCK
+    video @1000: eval prog=0.2 t=2.3  -> runs/level1/videos/step_0001000.mp4
+[   54.8s] step   1100 env    70,400 upd   1,576 | finish 0.01 crash 0.05 stuck 0.83 | prog 14.22 rew 1.81 | alpha 0.005 H 1.561 | 1284 env/s 29 upd/s
+[   59.6s] step   1200 env    76,800 upd   1,776 | finish 0.0 crash 0.03 stuck 0.9 | prog 10.77 rew 1.05 | alpha 0.005 H 1.643 | 1290 env/s 30 upd/s
+[   64.3s] step   1300 env    83,200 upd   1,976 | finish 0.0 crash 0.01 stuck 0.95 | prog 8.3 rew 0.74 | alpha 0.005 H 1.753 | 1293 env/s 31 upd/s
+[   69.2s] step   1400 env    89,600 upd   2,176 | finish 0.0 crash 0.02 stuck 0.95 | prog 7.55 rew 0.68 | alpha 0.005 H 1.474 | 1295 env/s 32 upd/s
+[   74.0s] step   1500 env    96,000 upd   2,376 | finish 0.0 crash 0.03 stuck 0.94 | prog 7.75 rew 0.74 | alpha 0.005 H 1.711 | 1297 env/s 32 upd/s
+    eval @1500: run prog=0.2 t=2.3 STUCK | run prog=0.2 t=2.3 STUCK
+[   81.1s] step   1600 env   102,400 upd   2,576 | finish 0.0 crash 0.02 stuck 0.97 | prog 8.3 rew 0.81 | alpha 0.005 H 1.805 | 1262 env/s 32 upd/s
+[   87.1s] step   1700 env   108,800 upd   2,776 | finish 0.0 crash 0.01 stuck 0.98 | prog 9.32 rew 0.99 | alpha 0.005 H 1.713 | 1249 env/s 32 upd/s
+[   92.6s] step   1800 env   115,200 upd   2,976 | finish 0.0 crash 0.01 stuck 0.97 | prog 11.18 rew 1.21 | alpha 0.005 H 1.788 | 1245 env/s 32 upd/s
+[   99.3s] step   1900 env   121,600 upd   3,176 | finish 0.0 crash 0.01 stuck 0.97 | prog 12.76 rew 1.54 | alpha 0.005 H 1.671 | 1225 env/s 32 upd/s
+[  105.2s] step   2000 env   128,000 upd   3,376 | finish 0.01 crash 0.02 stuck 0.94 | prog 13.55 rew 1.79 | alpha 0.005 H 1.756 | 1217 env/s 32 upd/s
+    eval @2000: run prog=0.2 t=2.3 STUCK | run prog=0.2 t=2.3 STUCK
+    video @2000: eval prog=0.2 t=2.3  -> runs/level1/videos/step_0002000.mp4
+[  113.5s] step   2100 env   134,400 upd   3,576 | finish 0.01 crash 0.02 stuck 0.9 | prog 16.16 rew 2.25 | alpha 0.005 H 1.75 | 1184 env/s 32 upd/s
+[  119.0s] step   2200 env   140,800 upd   3,776 | finish 0.02 crash 0.02 stuck 0.86 | prog 19.18 rew 2.92 | alpha 0.005 H 1.582 | 1183 env/s 32 upd/s
+[  124.1s] step   2300 env   147,200 upd   3,976 | finish 0.02 crash 0.03 stuck 0.8 | prog 23.14 rew 3.68 | alpha 0.005 H 1.795 | 1186 env/s 32 upd/s
+[  130.0s] step   2400 env   153,600 upd   4,176 | finish 0.02 crash 0.03 stuck 0.72 | prog 26.89 rew 4.31 | alpha 0.005 H 1.81 | 1182 env/s 32 upd/s
+[  135.6s] step   2500 env   160,000 upd   4,376 | finish 0.02 crash 0.02 stuck 0.7 | prog 29.42 rew 4.85 | alpha 0.005 H 1.839 | 1180 env/s 32 upd/s
+    eval @2500: run prog=0.2 t=2.3 STUCK | run prog=0.2 t=2.3 STUCK
+[  143.1s] step   2600 env   166,400 upd   4,576 | finish 0.03 crash 0.03 stuck 0.68 | prog 31.79 rew 5.5 | alpha 0.005 H 1.755 | 1163 env/s 32 upd/s
+[  148.6s] step   2700 env   172,800 upd   4,776 | finish 0.02 crash 0.03 stuck 0.69 | prog 32.99 rew 5.66 | alpha 0.005 H 1.681 | 1163 env/s 32 upd/s
+[  154.0s] step   2800 env   179,200 upd   4,976 | finish 0.11 crash 0.02 stuck 0.63 | prog 36.52 rew 7.13 | alpha 0.005 H 1.617 | 1164 env/s 32 upd/s
+[  159.4s] step   2900 env   185,600 upd   5,176 | finish 0.24 crash 0.01 stuck 0.52 | prog 41.34 rew 9.33 | alpha 0.005 H 1.603 | 1165 env/s 32 upd/s
+[  165.0s] step   3000 env   192,000 upd   5,376 | finish 0.33 crash 0.02 stuck 0.48 | prog 42.47 rew 10.57 | alpha 0.005 H 1.553 | 1163 env/s 33 upd/s
+    eval @3000: run prog=0.2 t=2.3 STUCK | run prog=0.2 t=2.3 STUCK
+    video @3000: eval prog=0.2 t=2.3  -> runs/level1/videos/step_0003000.mp4
+[  173.1s] step   3100 env   198,400 upd   5,576 | finish 0.54 crash 0.01 stuck 0.3 | prog 46.77 rew 13.5 | alpha 0.005 H 1.574 | 1146 env/s 32 upd/s
+[  177.8s] step   3200 env   204,800 upd   5,776 | finish 0.68 crash 0.01 stuck 0.2 | prog 48.98 rew 15.4 | alpha 0.005 H 1.621 | 1152 env/s 32 upd/s
+[  182.2s] step   3300 env   211,200 upd   5,976 | finish 0.67 crash 0.03 stuck 0.22 | prog 47.35 rew 15.25 | alpha 0.0051 H 1.355 | 1159 env/s 33 upd/s
+[  186.8s] step   3400 env   217,600 upd   6,176 | finish 0.73 crash 0.03 stuck 0.2 | prog 48.4 rew 16.07 | alpha 0.005 H 1.355 | 1165 env/s 33 upd/s
+[  193.5s] step   3500 env   224,000 upd   6,376 | finish 0.68 crash 0.13 stuck 0.18 | prog 47.57 rew 15.44 | alpha 0.005 H 0.822 | 1157 env/s 33 upd/s
+    eval @3500: run prog=0.2 t=0.6 CRASH | run prog=0.2 t=0.6 CRASH
+[  199.8s] step   3600 env   230,400 upd   6,576 | finish 0.46 crash 0.32 stuck 0.19 | prog 42.17 rew 12.57 | alpha 0.005 H 1.235 | 1153 env/s 33 upd/s
+[  204.6s] step   3700 env   236,800 upd   6,776 | finish 0.33 crash 0.58 stuck 0.06 | prog 39.16 rew 11.09 | alpha 0.005 H 1.366 | 1158 env/s 33 upd/s
+[  209.2s] step   3800 env   243,200 upd   6,976 | finish 0.25 crash 0.64 stuck 0.08 | prog 36.65 rew 10.12 | alpha 0.005 H 1.203 | 1163 env/s 33 upd/s
+[  213.6s] step   3900 env   249,600 upd   7,176 | finish 0.25 crash 0.59 stuck 0.14 | prog 36.85 rew 10.2 | alpha 0.005 H 1.254 | 1169 env/s 34 upd/s
+[  218.1s] step   4000 env   256,000 upd   7,376 | finish 0.24 crash 0.63 stuck 0.13 | prog 37.18 rew 10.4 | alpha 0.005 H 1.271 | 1174 env/s 34 upd/s
+    eval @4000: run prog=26.5 t=6.2 CRASH | run prog=22.5 t=7.6 STUCK
+    video @4000: eval prog=26.5 t=6.2 CRASH -> runs/level1/videos/step_0004000.mp4
+[  231.6s] step   4100 env   262,400 upd   7,576 | finish 0.24 crash 0.6 stuck 0.16 | prog 37.67 rew 10.74 | alpha 0.005 H 1.161 | 1133 env/s 33 upd/s
+[  236.0s] step   4200 env   268,800 upd   7,776 | finish 0.26 crash 0.62 stuck 0.12 | prog 38.83 rew 11.46 | alpha 0.005 H 1.319 | 1139 env/s 33 upd/s
+[  240.5s] step   4300 env   275,200 upd   7,976 | finish 0.25 crash 0.61 stuck 0.14 | prog 38.44 rew 11.44 | alpha 0.005 H 1.285 | 1144 env/s 33 upd/s
+[  245.4s] step   4400 env   281,600 upd   8,176 | finish 0.22 crash 0.65 stuck 0.13 | prog 38.49 rew 11.28 | alpha 0.005 H 1.217 | 1148 env/s 33 upd/s
+[  249.6s] step   4500 env   288,000 upd   8,376 | finish 0.25 crash 0.58 stuck 0.17 | prog 41.46 rew 12.22 | alpha 0.005 H 1.231 | 1154 env/s 34 upd/s
+    eval @4500: FIN prog=47.8 t=12.1  | FIN prog=45.8 t=9.8 
+    new best: 2/2 finishes, mean time 10.96s
+[  260.7s] step   4600 env   294,400 upd   8,576 | finish 0.31 crash 0.51 stuck 0.17 | prog 42.96 rew 12.94 | alpha 0.005 H 1.231 | 1129 env/s 33 upd/s
+[  265.2s] step   4700 env   300,800 upd   8,776 | finish 0.4 crash 0.46 stuck 0.13 | prog 44.94 rew 13.93 | alpha 0.005 H 1.131 | 1134 env/s 33 upd/s
+[  270.3s] step   4800 env   307,200 upd   8,976 | finish 0.61 crash 0.26 stuck 0.12 | prog 49.62 rew 16.28 | alpha 0.005 H 1.14 | 1137 env/s 33 upd/s
+[  275.2s] step   4900 env   313,600 upd   9,176 | finish 0.69 crash 0.24 stuck 0.06 | prog 51.26 rew 17.11 | alpha 0.005 H 1.299 | 1139 env/s 33 upd/s
+[  280.1s] step   5000 env   320,000 upd   9,376 | finish 0.73 crash 0.22 stuck 0.04 | prog 51.66 rew 17.56 | alpha 0.005 H 1.093 | 1142 env/s 34 upd/s
+    eval @5000: FIN prog=46.2 t=9.6  | run prog=46.2 t=11.6 CRASH
+    video @5000: eval prog=46.2 t=9.6 FIN -> runs/level1/videos/step_0005000.mp4
+[  296.9s] step   5100 env   326,400 upd   9,576 | finish 0.76 crash 0.22 stuck 0.02 | prog 51.81 rew 17.95 | alpha 0.005 H 1.227 | 1100 env/s 32 upd/s
+[  301.4s] step   5200 env   332,800 upd   9,776 | finish 0.78 crash 0.19 stuck 0.03 | prog 51.41 rew 18.08 | alpha 0.0052 H 1.039 | 1104 env/s 32 upd/s
+[  305.8s] step   5300 env   339,200 upd   9,976 | finish 0.84 crash 0.14 stuck 0.02 | prog 51.12 rew 18.58 | alpha 0.005 H 1.204 | 1109 env/s 33 upd/s
+[  310.0s] step   5400 env   345,600 upd  10,176 | finish 0.91 crash 0.07 stuck 0.02 | prog 50.48 rew 18.95 | alpha 0.005 H 1.173 | 1115 env/s 33 upd/s
+[  314.4s] step   5500 env   352,000 upd  10,376 | finish 0.97 crash 0.02 stuck 0.01 | prog 49.35 rew 19.36 | alpha 0.005 H 1.041 | 1120 env/s 33 upd/s
+    eval @5500: FIN prog=45.8 t=10.6  | FIN prog=45.2 t=10.3 
+    new best: 2/2 finishes, mean time 10.49s
+[  323.6s] step   5600 env   358,400 upd  10,576 | finish 0.98 crash 0.02 stuck 0.0 | prog 48.99 rew 19.51 | alpha 0.0053 H 1.165 | 1108 env/s 33 upd/s
+[  327.7s] step   5700 env   364,800 upd  10,776 | finish 0.98 crash 0.02 stuck 0.0 | prog 48.91 rew 19.51 | alpha 0.005 H 1.013 | 1113 env/s 33 upd/s
+[  331.9s] step   5800 env   371,200 upd  10,976 | finish 0.99 crash 0.0 stuck 0.01 | prog 49.86 rew 19.68 | alpha 0.0055 H 1.141 | 1118 env/s 33 upd/s
+[  336.1s] step   5900 env   377,600 upd  11,176 | finish 0.98 crash 0.01 stuck 0.01 | prog 49.11 rew 19.54 | alpha 0.0052 H 1.165 | 1124 env/s 33 upd/s
+[  340.2s] step   6000 env   384,000 upd  11,376 | finish 0.97 crash 0.01 stuck 0.02 | prog 48.27 rew 19.42 | alpha 0.0051 H 1.132 | 1129 env/s 33 upd/s
+    eval @6000: FIN prog=43.5 t=9.3  | FIN prog=45.5 t=10.9 
+    new best: 2/2 finishes, mean time 10.10s
+    video @6000: eval prog=43.5 t=9.3 FIN -> runs/level1/videos/step_0006000.mp4
+[  355.3s] step   6100 env   390,400 upd  11,576 | finish 0.97 crash 0.01 stuck 0.02 | prog 47.1 rew 19.43 | alpha 0.0053 H 1.052 | 1099 env/s 33 upd/s
+[  359.7s] step   6200 env   396,800 upd  11,776 | finish 0.98 crash 0.01 stuck 0.01 | prog 47.29 rew 19.54 | alpha 0.0055 H 0.923 | 1103 env/s 33 upd/s
+[  364.1s] step   6300 env   403,200 upd  11,976 | finish 1.0 crash 0.0 stuck 0.0 | prog 47.33 rew 19.84 | alpha 0.0054 H 1.074 | 1108 env/s 33 upd/s
+[  368.2s] step   6400 env   409,600 upd  12,176 | finish 0.99 crash 0.01 stuck 0.0 | prog 46.98 rew 19.72 | alpha 0.005 H 1.187 | 1112 env/s 33 upd/s
+[  372.5s] step   6500 env   416,000 upd  12,376 | finish 0.99 crash 0.01 stuck 0.0 | prog 46.85 rew 19.72 | alpha 0.0051 H 1.172 | 1117 env/s 33 upd/s
+    eval @6500: FIN prog=48.5 t=12.7  | FIN prog=45.2 t=9.8 
+[  382.4s] step   6600 env   422,400 upd  12,576 | finish 0.98 crash 0.02 stuck 0.0 | prog 46.83 rew 19.61 | alpha 0.0052 H 1.142 | 1105 env/s 33 upd/s
+[  387.0s] step   6700 env   428,800 upd  12,776 | finish 0.98 crash 0.02 stuck 0.0 | prog 46.79 rew 19.58 | alpha 0.0055 H 1.141 | 1108 env/s 33 upd/s
+[  391.3s] step   6800 env   435,200 upd  12,976 | finish 0.98 crash 0.02 stuck 0.0 | prog 46.72 rew 19.59 | alpha 0.005 H 1.196 | 1112 env/s 33 upd/s
+[  395.5s] step   6900 env   441,600 upd  13,176 | finish 0.98 crash 0.02 stuck 0.0 | prog 46.43 rew 19.6 | alpha 0.0053 H 1.05 | 1116 env/s 33 upd/s
+[  400.1s] step   7000 env   448,000 upd  13,376 | finish 0.96 crash 0.03 stuck 0.01 | prog 45.97 rew 19.28 | alpha 0.005 H 1.14 | 1120 env/s 33 upd/s
+    eval @7000: run prog=0.2 t=2.3 STUCK | run prog=0.2 t=2.3 STUCK
+    video @7000: eval prog=0.2 t=2.3  -> runs/level1/videos/step_0007000.mp4
+[  407.5s] step   7100 env   454,400 upd  13,576 | finish 0.97 crash 0.02 stuck 0.01 | prog 45.84 rew 19.42 | alpha 0.005 H 1.124 | 1115 env/s 33 upd/s
+[  412.0s] step   7200 env   460,800 upd  13,776 | finish 0.95 crash 0.04 stuck 0.01 | prog 45.32 rew 19.19 | alpha 0.005 H 1.145 | 1118 env/s 33 upd/s
+[  416.8s] step   7300 env   467,200 upd  13,976 | finish 0.93 crash 0.05 stuck 0.02 | prog 44.58 rew 18.92 | alpha 0.005 H 1.023 | 1121 env/s 34 upd/s
+[  421.2s] step   7400 env   473,600 upd  14,176 | finish 0.96 crash 0.03 stuck 0.01 | prog 45.38 rew 19.35 | alpha 0.0053 H 1.11 | 1124 env/s 34 upd/s
+[  425.7s] step   7500 env   480,000 upd  14,376 | finish 0.97 crash 0.02 stuck 0.01 | prog 45.59 rew 19.49 | alpha 0.0054 H 1.047 | 1128 env/s 34 upd/s
+    eval @7500: run prog=0.2 t=2.3 STUCK | run prog=0.2 t=2.3 STUCK
+[  431.9s] step   7600 env   486,400 upd  14,576 | finish 0.98 crash 0.02 stuck 0.0 | prog 45.71 rew 19.63 | alpha 0.0053 H 1.069 | 1126 env/s 34 upd/s
+[  436.3s] step   7700 env   492,800 upd  14,776 | finish 0.99 crash 0.01 stuck 0.0 | prog 45.99 rew 19.77 | alpha 0.0051 H 1.045 | 1129 env/s 34 upd/s
+[  440.8s] step   7800 env   499,200 upd  14,976 | finish 0.96 crash 0.02 stuck 0.02 | prog 45.2 rew 19.35 | alpha 0.0055 H 1.103 | 1132 env/s 34 upd/s
+[  445.4s] step   7900 env   505,600 upd  15,176 | finish 0.96 crash 0.02 stuck 0.02 | prog 45.57 rew 19.33 | alpha 0.005 H 1.039 | 1135 env/s 34 upd/s
+[  450.0s] step   8000 env   512,000 upd  15,376 | finish 0.95 crash 0.03 stuck 0.02 | prog 45.37 rew 19.23 | alpha 0.005 H 1.108 | 1138 env/s 34 upd/s
+    eval @8000: FIN prog=45.0 t=9.5  | FIN prog=42.5 t=10.0 
+    new best: 2/2 finishes, mean time 9.78s
+    video @8000: eval prog=45.0 t=9.5 FIN -> runs/level1/videos/step_0008000.mp4
+[  466.2s] step   8100 env   518,400 upd  15,576 | finish 0.97 crash 0.02 stuck 0.01 | prog 45.84 rew 19.52 | alpha 0.0051 H 1.059 | 1112 env/s 33 upd/s
+[  470.4s] step   8200 env   524,800 upd  15,776 | finish 0.99 crash 0.01 stuck 0.0 | prog 45.94 rew 19.79 | alpha 0.0053 H 1.036 | 1116 env/s 34 upd/s
+[  475.6s] step   8300 env   531,200 upd  15,976 | finish 0.99 crash 0.01 stuck 0.0 | prog 45.82 rew 19.8 | alpha 0.0052 H 1.103 | 1117 env/s 34 upd/s
+[  480.0s] step   8400 env   537,600 upd  16,176 | finish 1.0 crash 0.0 stuck 0.0 | prog 45.43 rew 19.92 | alpha 0.005 H 1.153 | 1120 env/s 34 upd/s
+[  484.5s] step   8500 env   544,000 upd  16,376 | finish 1.0 crash 0.0 stuck 0.0 | prog 45.3 rew 19.94 | alpha 0.005 H 1.091 | 1123 env/s 34 upd/s
+    eval @8500: FIN prog=51.0 t=15.1  | FIN prog=43.8 t=10.6 
+[  496.6s] step   8600 env   550,400 upd  16,576 | finish 0.99 crash 0.01 stuck 0.0 | prog 45.2 rew 19.79 | alpha 0.0051 H 1.133 | 1108 env/s 33 upd/s
+[  501.6s] step   8700 env   556,800 upd  16,776 | finish 0.99 crash 0.01 stuck 0.0 | prog 45.09 rew 19.81 | alpha 0.005 H 1.039 | 1110 env/s 33 upd/s
+[  506.0s] step   8800 env   563,200 upd  16,976 | finish 0.99 crash 0.01 stuck 0.0 | prog 44.79 rew 19.82 | alpha 0.0052 H 1.166 | 1113 env/s 34 upd/s
+[  510.1s] step   8900 env   569,600 upd  17,176 | finish 0.99 crash 0.01 stuck 0.0 | prog 44.49 rew 19.86 | alpha 0.005 H 1.142 | 1117 env/s 34 upd/s
+[  514.4s] step   9000 env   576,000 upd  17,376 | finish 1.0 crash 0.0 stuck 0.0 | prog 44.12 rew 20.01 | alpha 0.005 H 1.121 | 1120 env/s 34 upd/s
+    eval @9000: FIN prog=46.8 t=10.4  | FIN prog=46.5 t=13.2 
+    video @9000: eval prog=46.8 t=10.4 FIN -> runs/level1/videos/step_0009000.mp4
+[  530.5s] step   9100 env   582,400 upd  17,576 | finish 1.0 crash 0.0 stuck 0.0 | prog 44.01 rew 20.02 | alpha 0.0051 H 1.139 | 1098 env/s 33 upd/s
+[  535.1s] step   9200 env   588,800 upd  17,776 | finish 1.0 crash 0.0 stuck 0.0 | prog 43.89 rew 20.02 | alpha 0.0052 H 1.069 | 1100 env/s 33 upd/s
+[  539.3s] step   9300 env   595,200 upd  17,976 | finish 1.0 crash 0.0 stuck 0.0 | prog 43.8 rew 20.03 | alpha 0.0053 H 1.054 | 1104 env/s 33 upd/s
+[  543.4s] step   9400 env   601,600 upd  18,176 | finish 0.99 crash 0.0 stuck 0.01 | prog 43.65 rew 19.89 | alpha 0.005 H 1.073 | 1107 env/s 33 upd/s
+[  548.2s] step   9500 env   608,000 upd  18,376 | finish 0.99 crash 0.0 stuck 0.01 | prog 43.53 rew 19.89 | alpha 0.0052 H 1.068 | 1109 env/s 34 upd/s
+    eval @9500: FIN prog=39.0 t=10.0  | FIN prog=40.2 t=9.9 
+[  557.9s] step   9600 env   614,400 upd  18,576 | finish 0.99 crash 0.0 stuck 0.01 | prog 43.68 rew 19.89 | alpha 0.0055 H 0.914 | 1101 env/s 33 upd/s
+[  562.1s] step   9700 env   620,800 upd  18,776 | finish 0.98 crash 0.01 stuck 0.01 | prog 43.35 rew 19.75 | alpha 0.0056 H 1.094 | 1104 env/s 33 upd/s
+[  566.5s] step   9800 env   627,200 upd  18,976 | finish 0.99 crash 0.01 stuck 0.0 | prog 43.12 rew 19.88 | alpha 0.0057 H 1.122 | 1107 env/s 34 upd/s
+[  570.8s] step   9900 env   633,600 upd  19,176 | finish 0.97 crash 0.02 stuck 0.01 | prog 42.43 rew 19.62 | alpha 0.0056 H 1.042 | 1110 env/s 34 upd/s
+[  574.9s] step  10000 env   640,000 upd  19,376 | finish 0.98 crash 0.01 stuck 0.01 | prog 42.45 rew 19.76 | alpha 0.006 H 1.136 | 1113 env/s 34 upd/s
+    eval @10000: FIN prog=45.5 t=10.4  | FIN prog=42.5 t=9.3 
+    video @10000: eval prog=45.5 t=10.4 FIN -> runs/level1/videos/step_0010000.mp4
+[  591.4s] step  10100 env   646,400 upd  19,576 | finish 0.98 crash 0.01 stuck 0.01 | prog 42.58 rew 19.76 | alpha 0.0057 H 1.138 | 1093 env/s 33 upd/s
+[  595.5s] step  10200 env   652,800 upd  19,776 | finish 0.98 crash 0.01 stuck 0.01 | prog 42.57 rew 19.76 | alpha 0.0054 H 1.158 | 1096 env/s 33 upd/s
+[  599.8s] step  10300 env   659,200 upd  19,976 | finish 1.0 crash 0.0 stuck 0.0 | prog 43.28 rew 20.04 | alpha 0.0057 H 1.162 | 1099 env/s 33 upd/s
+[  604.8s] step  10400 env   665,600 upd  20,176 | finish 1.0 crash 0.0 stuck 0.0 | prog 43.22 rew 20.03 | alpha 0.0062 H 1.087 | 1100 env/s 33 upd/s
+[  609.9s] step  10500 env   672,000 upd  20,376 | finish 0.98 crash 0.02 stuck 0.0 | prog 42.79 rew 19.75 | alpha 0.006 H 1.082 | 1102 env/s 33 upd/s
+    eval @10500: FIN prog=42.2 t=11.3  | FIN prog=41.0 t=8.7 
+[  619.9s] step  10600 env   678,400 upd  20,576 | finish 0.98 crash 0.02 stuck 0.0 | prog 42.68 rew 19.76 | alpha 0.0059 H 1.073 | 1094 env/s 33 upd/s
+[  624.8s] step  10700 env   684,800 upd  20,776 | finish 0.98 crash 0.02 stuck 0.0 | prog 42.56 rew 19.76 | alpha 0.006 H 1.079 | 1096 env/s 33 upd/s
+[  629.9s] step  10800 env   691,200 upd  20,976 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.77 rew 20.02 | alpha 0.0062 H 1.0 | 1097 env/s 33 upd/s
+[  635.1s] step  10900 env   697,600 upd  21,176 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.52 rew 20.01 | alpha 0.0064 H 1.12 | 1098 env/s 33 upd/s
+[  640.2s] step  11000 env   704,000 upd  21,376 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.4 rew 20.0 | alpha 0.0063 H 1.001 | 1100 env/s 33 upd/s
+    eval @11000: FIN prog=40.2 t=9.3  | FIN prog=40.5 t=8.7 
+    new best: 2/2 finishes, mean time 8.96s
+    video @11000: eval prog=40.2 t=9.3 FIN -> runs/level1/videos/step_0011000.mp4
+[  657.4s] step  11100 env   710,400 upd  21,576 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.35 rew 20.01 | alpha 0.0065 H 1.139 | 1081 env/s 33 upd/s
+[  662.3s] step  11200 env   716,800 upd  21,776 | finish 0.99 crash 0.01 stuck 0.0 | prog 42.46 rew 19.89 | alpha 0.0061 H 1.138 | 1082 env/s 33 upd/s
+[  666.6s] step  11300 env   723,200 upd  21,976 | finish 0.99 crash 0.01 stuck 0.0 | prog 42.33 rew 19.9 | alpha 0.0068 H 1.07 | 1085 env/s 33 upd/s
+[  671.4s] step  11400 env   729,600 upd  22,176 | finish 0.99 crash 0.01 stuck 0.0 | prog 42.23 rew 19.88 | alpha 0.0067 H 1.114 | 1087 env/s 33 upd/s
+[  676.6s] step  11500 env   736,000 upd  22,376 | finish 0.99 crash 0.0 stuck 0.01 | prog 42.14 rew 19.86 | alpha 0.0068 H 1.154 | 1088 env/s 33 upd/s
+    eval @11500: FIN prog=41.0 t=9.6  | FIN prog=42.0 t=9.5 
+[  687.0s] step  11600 env   742,400 upd  22,576 | finish 0.99 crash 0.0 stuck 0.01 | prog 42.2 rew 19.86 | alpha 0.0074 H 1.1 | 1081 env/s 33 upd/s
+[  692.4s] step  11700 env   748,800 upd  22,776 | finish 0.99 crash 0.0 stuck 0.01 | prog 42.25 rew 19.86 | alpha 0.0077 H 1.16 | 1082 env/s 33 upd/s
+[  697.9s] step  11800 env   755,200 upd  22,976 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.38 rew 20.01 | alpha 0.0078 H 1.192 | 1082 env/s 33 upd/s
+[  702.5s] step  11900 env   761,600 upd  23,176 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.39 rew 20.01 | alpha 0.0079 H 1.236 | 1084 env/s 33 upd/s
+[  707.7s] step  12000 env   768,000 upd  23,376 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.41 rew 20.01 | alpha 0.0082 H 1.007 | 1085 env/s 33 upd/s
+    eval @12000: FIN prog=41.0 t=9.0  | FIN prog=42.5 t=10.4 
+    video @12000: eval prog=41.0 t=9.0 FIN -> runs/level1/videos/step_0012000.mp4
+[  726.0s] step  12100 env   774,400 upd  23,576 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.65 rew 20.01 | alpha 0.0086 H 1.05 | 1067 env/s 32 upd/s
+[  730.4s] step  12200 env   780,800 upd  23,776 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.7 rew 20.0 | alpha 0.0087 H 1.169 | 1069 env/s 33 upd/s
+[  735.0s] step  12300 env   787,200 upd  23,976 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.71 rew 20.0 | alpha 0.0085 H 0.962 | 1071 env/s 33 upd/s
+[  740.1s] step  12400 env   793,600 upd  24,176 | finish 1.0 crash 0.0 stuck 0.0 | prog 42.65 rew 19.98 | alpha 0.0083 H 1.243 | 1072 env/s 33 upd/s
+
+SIGTERM: finishing up and saving...
+saved final checkpoint to runs/level1/checkpoints/final.pt

@@ -1,0 +1,19 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- game assets: copyrighted, never redistribute ---
+# (fetch them with:  python3 download_levels.py --pack Best)
+levels/
+
+# --- scratch / intermediate ---
+scratch/
+
+# --- training artefacts: keep the summary + media, drop the bulk ---
+runs/*/checkpoints/ckpt_*.pt
+runs/*/checkpoints/final.pt
+runs/evidence_do-nothing-optimum/
+
+# --- large local junk ---
+*.tmp
